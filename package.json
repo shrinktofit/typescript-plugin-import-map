@@ -1,0 +1,23 @@
+{
+  "name": "typescript-plugin-import-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@import-maps/resolve": "^0.2.1",
+    "file-uri-to-path": "^2.0.0",
+    "file-url": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.6",
+    "typescript": "^3.7.4"
+  },
+  "peerDependencies": {
+    "typescript": "^3.7.4"
+  }
+}

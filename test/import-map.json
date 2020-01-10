@@ -1,0 +1,5 @@
+{
+    "imports": {
+        "file1": "./very/deep/file1"
+    }
+}

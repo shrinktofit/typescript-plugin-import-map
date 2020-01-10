@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "plugins": [{
+        "name": "typescript-plugin-import-map",
+        "importMap": [
+            "./import-map.json",
+            {
+                "imports": {
+                    "file2": "./very/deep/file2"
+                }
+            }
+        ]
+    }]
+  }
+}
